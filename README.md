@@ -1,16 +1,38 @@
-# React + Vite
+# Rock Paper Scissors (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive Rock Paper Scissors game built with React and Vite. Play against the computer in a "Best of 5" match format.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Best of 5 Match**: The first player to reach 3 wins takes the match crown!
+- **Score Tracking**: Keeps track of both Player and Computer scores in real time.
+- **Winning Streak**: Monitors your consecutive wins (resets when the computer scores).
+- **Match History**: See a detailed log of every round played in the current match.
+- **Immediate Feedback**: Emoji-based buttons and instant winner announcements.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Hooks: `useState`)
+- **Vite** (for fast development and build)
+- **CSS** (Inline styles for quick setup)
 
-## Expanding the ESLint configuration
+## 🏃‍♂️ How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aniruddhadwivedi07/RockPaperScissors.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd RockPaperScissors
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open your browser:**
+   Navigate to `http://localhost:5173` to start playing!
